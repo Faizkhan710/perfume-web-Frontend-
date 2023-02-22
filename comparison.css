@@ -1,0 +1,310 @@
+/*starting of navbar*/
+/* .navbar{
+    background-image: linear-gradient(black,black,white);
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      border: 0;
+      box-sizing: border-box;
+    }
+    #search-1{
+       margin-top: 40px;
+       background-color: #adff45;
+       border-radius: 20px;
+    }
+    .cart-img{
+      padding-top: 5px;
+      width: 5%;
+      height: 40px;
+  }
+  .nav-item{
+      margin-right: 20px;
+  } */
+  /*ending of navbar*/
+
+
+@media(max-width:800px){
+.hello2{
+    height: 705px;
+    background-color: rgba(25, 233, 6, 0.16);
+    width: 36.3%;
+    /* margin-left: 52.5%!important; */
+    /* margin-left: 17.1%; */
+    margin-left: 16%!important;
+    /* padding-left: 20%; */
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 10%;
+    margin-right: 60%!important;
+}
+
+.selection{
+    border: none;
+    color: #2ecb62;
+    background-color: #c3e408;
+    margin-left: 26%!important;
+    text-align: center;
+    margin-top: 775px!important;
+    width: 50%!important;
+    border-radius: 10px 10px 0px 0px ;
+    position: absolute;
+    height: 25px;
+    cursor: pointer;
+}
+.opt{
+    position: absolute;
+    color: black;
+    background-color: gainsboro;
+    border: none !important;
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    margin-left: 23%!important;
+    z-index: 1 !important;
+    text-align: center;
+    margin-top: 3.5%!important;
+    width: 50%!important;
+    cursor: pointer;
+}
+}
+@media(max-width:445px){
+    #tight{
+        width: 80%;
+    }
+    #tight1{
+        width: 80%;
+        margin-top: 10%;
+        margin-right: 60%!important;
+    }
+    .hello2{
+        height: 705px;
+        background-color: rgba(60, 219, 20, 0.16);
+        width: 36.3%;
+        
+        /* margin-left: 52.5%!important; */
+        /* margin-left: 17.1%; */
+        margin-left: 12%!important;
+        /* padding-left: 20%; */
+        border-radius: 10px;
+        width: 70%;
+        margin-top: 10%;
+        margin-right: 60%!important;
+    }
+    
+    .selection{
+        border: none;
+        color: beige;
+        background-color: gray;
+        margin-left: 15%!important;
+        text-align: center;
+        margin-top: 770px!important;
+        width: 70%!important;
+        border-radius: 10px 10px 0px 0px ;
+        position: absolute;
+        height: 25px;
+        cursor: pointer;
+    }
+    .opt{
+        position: absolute;
+        color: beige;
+        background-color: gray;
+        border: none !important;
+        border-radius: 10px 10px 0px 0px;
+        position: absolute;
+        margin-left: 19%!important;
+        z-index: 1 !important;
+        text-align: center;
+        margin-top: 3.5%!important;
+        width: 70%!important;
+        cursor: pointer;
+    }
+    .opt:hover{
+        background-color: black;
+    }
+    }
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 0 8px;
+}
+#track{
+    font-size: 26px;
+    text-align: center;
+    color: #223e2a;
+    margin: 0;
+}
+ul{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 0;
+} 
+li{
+    padding-top: 5px; 
+    
+}
+.bi{
+    font-size: 26px;
+    transition: .4s;
+    margin: 3px;
+}
+.buy-1{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding:15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    background: gainsboro;
+}
+
+
+
+.compaire1 h3{
+    margin-left: 20%;
+    /* margin-top: 20%; */
+}
+.compaire1 img{
+    height: 350px;
+    margin-left: 17%;
+    width: 70%;
+    margin-top: 10%;
+}
+#buy{
+    border: none;
+    margin-left: 15%;
+    background-color: #000;
+     color: white;
+     width: 70%;
+     height: 40px;
+     border-radius: 6px;
+}
+#buy:hover{
+    background-color: grey;
+    color: white;
+    transition: .3s;
+}
+.hello{
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.16);
+    width: 36.3%;
+    margin-left: 12.5%;
+    border-radius: 10px;
+}
+.compaire2 h3{
+    margin-left: 20%;
+    /* margin-top: 20%; */
+}
+.compaire2 img{
+    height: 350px;
+    margin-left: 17%;
+    width: 70%;
+    margin-top: 10%;
+}
+#comp2{
+    margin-top: 6%;
+    margin-left: -40%;
+    color: black;
+}
+#buy2{
+    margin-top: 3%;
+    border: none;
+    margin-left: 15%;
+    background-color: #000;
+     color: white;
+     width: 70%;
+     height: 40px;
+     border-radius: 6px;
+     /* margin-top: 7%; */
+}
+#buy2:hover{
+    background-color: grey;
+    color: white;
+    transition: .3s;
+}
+.hello2{
+    height: 705px;
+    background-color: rgba(0, 0, 0, 0.16);
+    width: 36.3%;
+    margin-top: -61.5%;
+    margin-left: 52.5%;
+    border-radius: 10px;
+}
+.opt{
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    border: none !important;
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    margin-left: 18.5%;
+    z-index: 1 !important;
+    text-align: center;
+    height: 50px;
+    margin-top: .5%;
+    width: 30.5%;
+    cursor: pointer;
+    /* margin-left: 19%; */
+}
+.opt:hover{
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+.selection{
+    border: none;
+    color: #fff;
+    background-color: #000;
+    margin-left: 52.1%;
+    text-align: center;
+    margin-top: .5%;
+    width: 30.5%;
+    border-radius: 10px 10px 0px 0px ;
+    position: absolute;
+    height: 50px;
+    cursor: pointer;
+}
+.selection:hover{
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+#comp1,#comp11{
+    font-weight: bold;
+    font-size: 15px;
+
+    /* margin-left: 16% !important; */
+    /* text-align: center; */
+    
+}
+#comp2,#comp21{
+    font-weight: bold;
+    /* margin-left: 28% !important; */
+    text-align: center;
+    margin-left: 5%;
+    font-size: 15px;
+}
+#comp3,#comp31{
+    font-weight: bold;
+    font-size: 15px;
+
+    /* margin-left: 10%; */
+}
+#comp4,#comp41{
+    font-weight: bold;
+    font-size: 15px;
+
+    /* margin-left: 27% !important; */
+}
+#comp5,#comp51{
+    font-weight: bold;
+    font-size: 15px;
+
+    /* margin-left: 30% !important; */
+}

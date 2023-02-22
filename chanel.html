@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Raleway:wght@100&display=swap"rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styling.css">
+    <title>Paarees perfume's</title>
+    <style>
+        .navbar-toggler{
+   border:5 px solid white !important;
+}
+        .card-img-top{
+            height: 205px;
+        }
+        .card-body{
+          background-color:rgba(0,0,0,0.7);
+          color: whitesmoke;
+          border: 1px solid black;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+        }
+        .card-title{
+          display: flex;
+          justify-content: center;
+          font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+        <!-- for customer care bar -->
+        <div class="nav col-lg-12 col-8 sticky-top ">
+            <ul class="nav" style="list-style-type: none; display: flex;">
+           <li><p style="color:white; font-weight: bold; margin-top: 10px; margin-left: 40px;">CUSTOMER CARE: +92 341 469 9666</p></li>
+           <li class="d-flex align-items-center px-0 mx-0"> <a class="nav-link p-0 "  href="#"><i id="user" class="bi bi-person-fill"></i></a> <a class="nav-link p-0 " href="login.html"><span class="log">| Login | </a><a class="nav-link p-0 "  href="#"> <i style="background-color: red; padding-top:12px; padding-bottom: 7px; padding-left: 15px; padding-right: 15px;" class="bi bi-bag ms-2"></i></span></a>
+                </li>
+              </ul>
+        </div>
+        <!-- for navigation bar -->
+        <div class="backgroundimage">
+                <div class="navigation">
+                    <header>
+                        <nav class="navbar navbar-expand-lg ">
+                          <div class="container-fluid">
+                           
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                              <ul class="navbar-nav">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    BRANDS
+                                  </a>
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="davidoff.html" target="_blank">DAVIDOFF</a></li>
+                                    <li><a class="dropdown-item" href="chanel.html" target="_blank">CHANEL</a></li>
+                                    <li><a class="dropdown-item" href="dior.html" target="_blank">DIOR</a></li>
+                                    <li><a class="dropdown-item" href="tomford.html" target="_blank">TOM FORD</a></li>
+                                    <li><a class="dropdown-item" href="gucci.html" target="_blank">GUCCI</a></li>
+                                  </ul>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="signin.html" target="_blank">SIGN IN</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="comparison.html">COMPARE</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="FAQ.html" target="_blank">FAQ's</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </nav>
+                    </header>
+                </div>
+
+                <!-- for filter box -->
+            <div class="filter-box">
+              <a href="#" class="btnf active" data-filter="all">All</a>
+              <a href="#" class="btnf" data-filter="Men">Men</a>
+              <a href="#" class="btnf" data-filter="Women">Women</a>
+              <a href="#" class="btnf" data-filter="Common">Common</a>
+            </div>
+
+                <!-- for products -->
+    <div class="row d-flex w-100 justify-content-center" id="store-products" style="margin-top: 1rem;">
+        <div class="col-8 col-sm-5 col-md-3 col-lg-2 m-1 mb-2">
+            <img src="images/perfume pics/chanel/new.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0000</h5>
+              <a href="product pages/chanel11.html" class="btn btn-primary">BUY NOW</a>
+            </div>
+          </div>
+        
+          <div class="col-8 col-sm-5 col-md-3 col-lg-2 m-1 mb-2 store-product Men">
+            <img src="images/perfume pics/chanel/NNNNN1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0001</h5>
+              <a href="product pages/chanel12.html" class="btn btn-primary">BUY NOW</a>
+            </div>
+          </div>
+    
+          <div class="col-8  col-sm-5 col-md-3 col-lg-2 m-1 mb-2 store-product Women">
+            <img src="images/perfume pics/chanel/nnnnnn2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0002</h5>
+              <a href="product pages/chanel13.html" class="btn btn-primary">BUY NOW</a>
+            </div>
+          </div>
+    
+          <div class="col-8 col-sm-5 col-md-3  col-lg-2 m-1 mb-2 store-product Common">
+            <img src="images/perfume pics/chanel/nnnnn4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0003</h5>
+              <a href="product pages/chanel14.html" class="btn btn-primary">BUY NOW</a>
+            </div>
+          </div>
+    
+          <div class="col-8 col-sm-5 col-md-3  col-lg-2 m-1 mb-2 store-product Men">
+            <img src="images/perfume pics/chanel/5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0004</h5>
+              <a href="product pages/chanel4.html" class="btn btn-primary">BUY NOW</a>
+            </div>
+          </div>
+    
+          <div class="col-8 col-sm-5 col-md-3  col-lg-2 m-1 mb-2 store-product Women">
+            <img src="images/perfume pics/chanel/nnnn5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0005</h5>
+              <a href="product pages/chanel15.html" class="btn btn-primary">BUY NOW</a>
+            </div>
+          </div>
+    
+          <div class="col-8 col-sm-5 col-md-3  col-lg-2 m-1 mb-2 store-product Common">
+            <img src="images/perfume pics/chanel/5011604_1024x1024.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0006</h5>
+              <a href="product pages/chanel5.html" class="btn btn-primary">BUY NOW</a>
+            </div>
+          </div>
+    
+          <div class="col-8 col-sm-5 col-md-3  col-lg-2 m-1 mb-2 store-product Men">
+            <img src="images/perfume pics/chanel/5017634_1024x1024.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0007</h5>
+              <a href="product pages/chanel6.html" class="btn btn-primary"d-flex justify-content-center>BUY NOW</a>
+            </div>
+          </div>
+    
+          <div class="col-8 col-sm-5 col-md-3  col-lg-2 m-1 mb-2 store-product Women">
+            <img src="images/perfume pics/chanel/5024217_1024x1024.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0008</h5>
+              <a href="product pages/chanel7.html" class="btn btn-primary"d-flex justify-content-center>BUY NOW</a>
+            </div>
+          </div>
+          
+          <div class="col-8 col-sm-5 col-md-3  col-lg-2 m-1 mb-2 store-product Common">
+            <img src="images/perfume pics/chanel/chanel-bleu-de-chanel-edp-pour-homme-100ml-282702_1800x1800.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0009</h5>
+              <a href="product pages/chanel8.html" class="btn btn-primary"d-flex justify-content-center>BUY NOW</a>
+            </div>
+          </div>
+    
+          <div class="col-8 col-sm-5 col-md-3  col-lg-2 m-1 mb-2 store-product Men">
+            <img src="images/perfume pics/chanel/chanel-coco-mademoiselle-leau-privee-eau-pour-la-nuit-spray-edp-100ml-perfume-781912_1800x1800.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0010</h5>
+              <a href="product pages/chanel9.html" class="btn btn-primary"d-flex justify-content-center>BUY NOW</a>
+            </div>
+          </div>
+    
+          <div class="col-8 col-sm-5 col-md-3  col-lg-2 m-1 mb-2 store-product Women">
+            <img src="images/perfume pics/chanel/chnael.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0011</h5>
+              <a href="product pages/chanel10.html" class="btn btn-primary"d-flex justify-content-center>BUY NOW</a>
+            </div>
+          </div>
+    
+          <div class="col-8 col-sm-5 col-md-3  col-lg-2 m-1 mb-2 store-product Common">
+            <img src="images/perfume pics/chanel/1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0012</h5>
+              <a href="product pages/chanel1.html" class="btn btn-primary"d-flex justify-content-center>BUY NOW</a>
+            </div>
+          </div>
+    
+          <div class="col-8 col-sm-5 col-md-3  col-lg-2 m-1 mb-2 store-product Men">
+            <img src="images/perfume pics/chanel/3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0013</h5>
+              <a href="product pages/chanel2.html" class="btn btn-primary"d-flex justify-content-center>BUY NOW</a>
+            </div>
+          </div>
+    
+          <div class="col-8 col-sm-5 col-md-3 mb-2 col-lg-2 m-1  store-product Women">
+            <img src="images/perfume pics/chanel/4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHANEL CH-0014</h5>
+              <a href="product pages/chanel3.html" class="btn btn-primary"d-flex justify-content-center>BUY NOW</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- -------------------------------footer--------------------- -->
+        <!-- Footer -->
+<footer class="page-footer" style="background-color: black; margin-top: 50px;">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5" style="padding-top: 80px; padding-bottom: 80px;">
+    
+    <!-- Grid row -->
+    <div class="row mt-3">
+    
+      <!-- Grid column -->
+      <div class="col-md-3 col-8 col-lg-4 col-sm-3 col-xl-3 mx-auto mb-4" style="border-right: 2px solid white;">
+    
+        <!-- Content -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28959.180170843632!2d67.00289015319923!3d24.867349411081456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e12e1cf1441%3A0x56456c5f979d622e!2sParis%20Perfumes%20Shop!5e0!3m2!1sen!2s!4v1652456965055!5m2!1sen!2s" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="sociallink">
+        <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/i/flow/login" target="_blank" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a>
+    </div>
+        <p style="color: white;">Powered by Shopify</p>
+    
+      </div>
+      <!-- Grid column -->
+    
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-8 col-xl-2 mx-auto mb-4">
+    
+        <!-- Links -->
+        <h4 style="color: white; font-size: 25px;" class="text-uppercase font-weight-bold">QUICK LINKS</h4>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a style="color: #B3B6B7">Search</a>
+        </p>
+        <p>
+          <a style="color: #B3B6B7">Legal Notice</a>
+        </p>
+        <p>
+          <a style="color: #b3b6b7"><Ri:a>Refund</Ri:a></a>
+        </p>
+        <p>
+          <a style="color: #B3B6B7">Terms of Service</a>
+        </p>
+        <p>
+          <a style="color: #B3B6B7">Ambassador Program</a>
+        </p>
+    
+      </div>
+      <!-- Grid column -->
+    
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-8 col-xl-2 mx-auto mb-4">
+    
+        <!-- Links -->
+        <h2 style="color: white; font-size: 25px;" class="text-uppercase font-weight-bold">GDRP</h2>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p >
+          <a style="color: #B3B6B7">Data Protection Declaration</a>
+        </p>
+        <p>
+          <a style="color: #B3B6B7">Datenschutzerklarung</a>
+        </p>
+    
+      </div>
+      <!-- Grid column -->
+    
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-8 col-xl-3 mx-auto mb-md-0 mb-4">
+    
+        <!-- Links -->
+        <h2 style="color: white; font-size: 25px;" class="text-uppercase font-weight-bold">CUSTOMER SERVICE</h2>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p style="color: #B3B6B7; font-size: 12px;">
+          <a> FAQ's </a>
+        </p>
+        <p style="color: #B3B6B7; font-size: 12px;">
+          <a> Contact </a>
+        </p>
+        <p style="color: #B3B6B7; font-size: 12px;">
+          <a>+ 92 311 838 1012 </a>
+        </p>
+        <p style="color: #B3B6B7; font-size: 12px;">
+          <a>+ 92 341 469 9666</a>
+         </p>
+    
+      </div>
+      <!-- Grid column -->
+    
+    </div>
+    <!-- Grid row -->
+    
+    </div>
+    <!-- Footer Links -->
+    
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="color: white;">© 2022 Copyright:
+    
+    </div>
+    <!-- Copyright -->
+    
+    </footer>
+    <!-- Footer -->
+    <!-- Footer -->
+    
+    <!-- ------------------------------------footer end------------------------- --> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
+
+</body>
+</html>
